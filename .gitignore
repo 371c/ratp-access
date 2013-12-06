@@ -1,0 +1,14 @@
+*.py[co~]
+*.sw[po]
+.project
+.pydevproject
+.settings/
+.coverage
+flycheck*.py
+*.tar.gz
+*.*~
+*.db
+*.log
+*.egg-info/
+tmp/
+*.log
