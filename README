@@ -1,0 +1,34 @@
+* A simple application which exploits RATP data to display routes, stops and their accessibility
+
+* Usage - Display various options with:
+python ratp.py -h
+
+
+Examples:
+
+python ratp.py -l
+Results:
+
+Lignes
+----------
+Ligne BALABUS, LA DEFENSE -> GARE DE LYON, Accessibilité: Accessible en fauteuil roulant,Annonce visuelle prochain arrêt,Annonce sonore prochain arrêt
+Ligne MONTMARTROBUS, PIGALLE -> MAIRIE DU XVIII-JULES JOFFRIN, Accessibilité: Annonce sonore prochain arrêt
+Ligne 20, GARE DE LYON. -> GARE SAINT-LAZARE, Accessibilité: Accessible en fauteuil roulant,Annonce visuelle prochain arrêt,Annonce sonore prochain arrêt
+Ligne 21, STADE CHARLETY-PORTE DE GENTILLY -> GARE SAINT LAZARE, Accessibilité: Accessible en fauteuil roulant,Annonce visuelle prochain arrêt,Annonce sonore prochain arrêt
+Ligne 22, PORTE DE SAINT CLOUD -> OPERA, Accessibilité: Accessible en fauteuil roulant,Annonce sonore prochain arrêt
+
+ 
+python ratp.py -s 54
+
+Results:
+
+Arrêts sur la ligne 54
+-----------
+Arret ANVERS-SACRE COEUR, Direction: Aller, Accessibilité: Accessible en fauteuil roulant,Annonce visuelle prochain passage,Annonce visuelle situations pertubées
+Arret ANVERS-SACRE COEUR, Direction: Retour, Accessibilité: Accessible en fauteuil roulant,Annonce visuelle prochain passage,Annonce visuelle situations pertubées
+Arret BARBES-ROCHECHOUART, Direction: Aller, Accessibilité: Accessible en fauteuil roulant,Annonce visuelle prochain passage,Annonce visuelle situations pertubées
+Arret BARBES-ROCHECHOUART, Direction: Retour, Accessibilité: Annonce visuelle prochain passage,Annonce visuelle situations pertubées
+Arret BARBUSSE-MARTRE, Direction: Aller, Accessibilité: Accessible en fauteuil roulant,Annonce visuelle prochain passage,Annonce visuelle situations pertubées
+
+
+

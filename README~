@@ -1,0 +1,11 @@
+* A simple application which exploits RATP data to display routes, stops and their accessibility
+
+* Usage:
+python ratp.py -h
+
+
+Example: 
+python ratp.py -s 54
+
+Results:
+
